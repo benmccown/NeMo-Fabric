@@ -58,6 +58,7 @@ NeMo Fabric separates consumers from execution targets through a stable, version
 ## Documentation
 
 - [Quickstart](docs/getting-started/quickstart.mdx): Run a first agent through the Python SDK.
+- [Conversation telemetry](docs/sdk/python.mdx): Use `RunRequest.relay_session_root` to group Deep Agents and mini-SWE-agent turns under one NeMo Relay session.
 - [Installation](docs/getting-started/install.mdx): Install the runtime, adapters, harness dependencies, and telemetry components, and choose a deployment scenario.
 - [Documentation overview](docs/about-nemo-fabric/overview.mdx): Understand the execution model and choose an interface.
 - [Adapter reference](adapters/README.md): Compare adapter configuration, runtime, and observability support.

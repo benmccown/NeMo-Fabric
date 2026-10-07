@@ -135,6 +135,7 @@ def test_harbor_transport_models_validate_mcp_targets():
         "config",
         "config_base_dir",
         "logs_dir",
+        "skills_dir",
         "request",
     }
     assert payload_properties["logs_dir"]["default"] == "/logs/agent"
